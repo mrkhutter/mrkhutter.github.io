@@ -2,7 +2,8 @@ const main = {
   name: 'Mark Hutter',
   mail: 'mrkhutter@gmail.com',
   img: 'profile.jpg',
-  role: ['Lead Engineer', ' Conference Organizer'],
+  role: ['Lead Engineer'], 
+  subrole: ['Conference Organizer'],
   // Refer https://ionicons.com/ and put the icon name inside iconName key
   connects: [
     {

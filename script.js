@@ -11,6 +11,7 @@ const dom = {
     mail: getDOM('#main #mail'),
     img: getDOM('#main #img'),
     role: getDOM('#main #role'),
+    subrole: getDOM('#main #subrole'),
     connects: getDOM('#main #connects'),
     links: getDOM('#main #links')
   },
@@ -42,6 +43,7 @@ assignDOM(dom.main.mail(), main.mail);
 dom.main.mail().href = `mailto:${main.mail}?Subject=Hello%20again`;
 assignDOM(dom.main.img(), main.img, { isImg: true });
 assignDOM(dom.main.role(), main.role);
+assignDOM(dom.main.subrole(), main.subrole);
 // assignDOM(dom.main.links(), main.links)
 
 // External Links (ICONS)
